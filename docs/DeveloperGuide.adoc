@@ -71,9 +71,8 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 |`*` | coach who wants to visually track the progress of my clients| store photos to monitor the changes in my client’s physique. |
 |`*` | coach| check if the gym I am going to is closed|
 |`*` | coach| use the timer in the app|  I can seamlessly execute the time interval of the workout planned.
-|`*` | | |
-|`*` | | |
-|`*` | | |
+|`*` | coach|  book the facilities required by the workout.|
+|`*` | coach |see upcoming competitions or meet  |  I can plan for my clients to attend them.
 
 |=======================================================================
 
@@ -118,6 +117,13 @@ _{More to be added}_
 .  Should work on any <<mainstream-os,mainstream OS>> as long as it has Java `11` or above installed.
 .  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 .  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+.  Should work without the need for Internet in the program.
+.  Should work reliably.
+.  Should be able to store data in a human-readable format.
+.  Should be for a single user.
+.  Should not use DBMS to store data.
+.  Should not exceed 100Mb in file size.
+
 
 _{More to be added}_
 
@@ -129,6 +135,18 @@ Windows, Linux, Unix, OS-X
 
 [[private-contact-detail]] Private contact detail::
 A contact detail that is not meant to be shared with others
+
+[[exercise-template]] Exericse Template::
+An outline for an exercise.
+
+[[exercise]] Exercise::
+A fixed set of repetitions according to an exercise template.
+
+[[training-routine]] Training Routine::
+An outline for a set of exercises.
+
+[[training]] Training::
+A fixed set of exercises according to a training routine.
 
 [appendix]
 == Product Survey
